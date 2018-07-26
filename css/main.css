@@ -89,6 +89,32 @@ button{
 	
 }
 /*end article*/
+/************************/
+
+/*start footer*/
+.footer_container{
+	width:700px;
+	margin:0px auto;
+}
+.github{
+	margin:0px auto;
+	margin-bottom:20px;
+	width:300px;
+	background-color:cyan;
+	padding:5px;
+	border-radius:20px;
+	box-shadow:0px 0px 5px 5px gray;
+}
+.github p{
+	text-align:center;
+	text-shadow:5px 3px 5px green;
+}
+.github img{
+	margin-right:37%;
+}
+
+/*end footer*/
+/************************/
 
 /*start framework*/
 .clear_fix{
