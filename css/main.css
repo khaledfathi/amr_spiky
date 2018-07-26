@@ -1,0 +1,97 @@
+/*global rules*/
+body{
+	margin:0px;
+}
+/************************/
+
+/*start header*/
+header{
+	position:relative;
+	background-color:darkblue;
+	padding:1px;
+	box-shadow:0px 9px 10px gray;
+}
+header .container{
+	margin:0px auto;
+	width:700px;
+}
+.page_title{
+	margin:20px auto;
+	width:500px;
+	text-align:center;
+	color:white;
+	text-shadow:5px 5px 3px #666;
+	border:3px solid white;
+	border-radius:20px;
+	box-shadow: 0px 0px 10px 6px black,
+		0px 0px 10px 10px white;
+	font-size:30px;
+}
+/*end header*/
+/************************/
+
+/*start article*/
+article .container{
+	position:relative;
+	margin:0px auto ;
+	width:700px;
+	height:1000px;
+}
+/*article >> app container */
+.app_container{
+	margin:20px auto;
+	width:700px;
+	font-size:40px;
+}
+/*article >> inputs */
+.inputs h3{
+	text-align:center;
+	text-shadow:2px 2px 5px red;
+}
+.inputs input,.inputs label{
+	width:300px;
+	height:100px;
+	font-size:30px;
+	font-weight:bold;
+	float:right;
+	margin-top:100px;
+}
+.inputs input{
+	border-radius:20px;
+	border:none;
+	background-color:coral;
+	box-shadow:2px 2px 5px black;
+	
+}
+.inputs label{
+	margin-top:120px;
+	margin-left:30px;
+	text-shadow:2px 2px 5px #365;
+	color:red;
+}
+button{
+	width:300px;
+	height:150px;
+	margin-top:10%;
+	margin-right:30%;
+	color:white;
+	background-color:red;
+	border:none;
+	border-radius:80px 20px;
+	box-shadow:0px 0px 10px 5px black;
+	font-size:60px;
+	text-shadow:5px 5px 5px black;
+}
+.inputs p {
+	font-size:70px;
+	color:red;
+	text-shadow:2px 2px 5px #365;
+	
+}
+/*end article*/
+
+/*start framework*/
+.clear_fix{
+	clear:both;
+}
+/*start framework*/
